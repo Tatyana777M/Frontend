@@ -1,25 +1,29 @@
 
 h1 {
     color: rgb(20, 21, 80);
-    text-align: left;
-  }
+}
+   
   h2 {
     color: rgb(81, 29, 29);
-    text-align: left;
+    
   }
 
     h3 {
         color: rgb(15, 11, 11);
-        text-align: left;
         font-style: normal;
+        text-decoration:overline ;
+
   }
   
   p{
   
       color:rgb(11, 48, 22);
-          font-style: italic;
+          font-style:initial;
       }
-  
+  ol>li {
+    text-align: left;
+
+  }
     
   
   
