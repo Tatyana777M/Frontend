@@ -1,4 +1,8 @@
-
+html,body {
+    height: 100%;
+    margin: 30;
+    background-color: rgb(205, 222, 222);
+}
 h1 {
     color: rgb(20, 21, 80);
 }
