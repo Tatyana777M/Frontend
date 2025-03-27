@@ -19,11 +19,14 @@ console.log(sumOfAges)
 const sumOfAgesPlusTen = allJediAges.reduce((acc, current) =>acc + current, 10)
 console.log(sumOfAgesPlusTen)
 
-const starWarsHeroesWithoutAnakin = starWarsHeroes.slice(0)
+const starWarsHeroesWithoutAnakin = starWarsHeroes.slice(1)
 console.log (starWarsHeroesWithoutAnakin)
 
-const starWarsHeroesWithVader = { name: "Darth Vader", isJedi: false, age: 50 };
-starWarsHeroes.push(starWarsHeroesWithVader)
+const starWarsHeroesWithVader = [...starWarsHeroesWithoutAnakin]
+starWarsHeroesWithVader.unshift ({name: "Darth Vader", isJedi: false, age: 50 })
+console.log(starWarsHeroesWithVader)
+
+
 
 
 
