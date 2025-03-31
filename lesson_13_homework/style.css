@@ -31,11 +31,7 @@
     background-color: rgb(147, 183, 249);
   }
   
-  .todo{
-    /* margin-top: 60px; */
-  }
-  
-  form > input {
+  .form > input {
     padding: 6px;
   }
   
