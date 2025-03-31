@@ -35,7 +35,7 @@ btnChange.addEventListener('click', () => {
 })
 let btnCreate = document.getElementById('btn-create')
 
-btnCreate.addEventListener('click', () => {
+btnCreate.addEventListener ('click', () => {
   // создаем переменную с новым элементом
   let newElement = document.createElement('p')
   // добавляем элементу текст
@@ -44,3 +44,4 @@ btnCreate.addEventListener('click', () => {
   newElement.classList.add('dom-text')
   // к будущему родителю для элемента применяем метод append, в который передаем наш созданный newElement
   document.body.append(newElement)
+})
