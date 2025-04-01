@@ -22,6 +22,17 @@ form.addEventListener('submit', function(event) {
           ul.append(li);
         });
 
+const addFilmToPage = ()=> {
+filmList.map(el =>{
+    const section = document.createElement("section")
+    const img = document.createElement("img")
+
+
+    section.append(h2,p,img)
+})
+
+
+}
     const movie = { title, author, year, poster };
     movies.push(movie);
     renderMovies();
