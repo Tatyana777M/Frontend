@@ -16,10 +16,10 @@ async function getCharacters(name) {
   }
   requestCount++;
 
-  const res = await fetch(`https://api.genderize.io/?name=${name}`);
+  const res = await fetch(`https://dummyjson.com/products/?name=${name}`);
   const data = await res.json();
 
-  console.log(data);
+  console.log(data.products);
 
   if (data.error) {
     console.error(data.error);
